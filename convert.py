@@ -77,4 +77,7 @@ def render(lyrics_text, buf=None):
 
 if __name__ == "__main__":
     import sys
-    render(sys.stdin.read(), buf=sys.stdout)
+    if len(sys.argv) > 1:
+        print('Usage: cat lyrics.txt | ./convert.py > output.html')
+    else:
+        render(sys.stdin.read(), buf=sys.stdout)
