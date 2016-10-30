@@ -1,7 +1,12 @@
 body {
-    font-family: Source Han Sans, Hiragino Kaku Gothic Pro, sans-serif;
+    color: #212121;
+    font-family: Hiragino Sans, Source Han Sans, Hiragino Kaku Gothic Pro, sans-serif;
     font-size: 1.25em;
     font-weight: 400;
     line-height: 1.8;
     text-align: center;
+}
+
+h1 {
+    color: #424242;
 }
